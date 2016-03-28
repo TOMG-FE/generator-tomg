@@ -1,0 +1,20 @@
+{
+    "name": "generator-tomg",
+    "version": "0.1.0",
+    "description": "tencent house h5 framework",
+    "files": [
+        "generators/app"
+    ],
+    "keywords": [
+        "yeoman-generator"
+    ],
+    "dependencies": {
+        "chalk": "^1.1.1",
+        "globby": "^3.0.0",
+        "mkdirp": "^0.5.1",
+        "underscore.string": "^3.3.4",
+        "wiredep": "^4.0.0",
+        "yeoman-generator": "^0.20.3",
+        "yosay": "^1.1.0"
+    }
+}

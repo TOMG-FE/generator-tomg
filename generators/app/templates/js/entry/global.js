@@ -1,0 +1,1 @@
+require('../comp/common/fastclick');
