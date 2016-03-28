@@ -57,8 +57,6 @@ module.exports = generators.Base.extend({
             done();
         }.bind(this));
         */
-
-        var done = this.async();
         this.prompt({
             type: 'input',
             name: 'name',
