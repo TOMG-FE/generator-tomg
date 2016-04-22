@@ -20,6 +20,8 @@ module.exports = function(str){
 		replace(/&#39;/g,'\'').
 		replace(/&nbsp;/g,'\u00A0').
 		replace(/&#32;/g,'\u0020').
+		replace(/&#96;/g, '`').
 		replace(/&amp;/g,'&');
 };
+
 

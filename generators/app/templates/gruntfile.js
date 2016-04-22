@@ -49,7 +49,7 @@ module.exports = function(grunt) {
 		sprity : {
 			options : {
 				cssPath : '../images',
-				margin : 5,
+				margin : 4,
 				dimension : [{
 					ratio : 1, dpi: 72
 				}, {
@@ -88,3 +88,5 @@ module.exports = function(grunt) {
 	]);
 
 };
+
+

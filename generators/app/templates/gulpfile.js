@@ -101,7 +101,7 @@ $gulp.task('serve', [
 	$gulp.watch(['./src/css/**/*.css'], ['postcss']);
 	$gulp.watch(['./src/images/sprite_output/*'], ['copy-sprites']);
 
-	$gulp.watch(['./src/js/**/*'], ['js-compress']);
+	$gulp.watch(['./dist/js/**/*'], ['js-compress']);
 	$gulp.watch(['./dist/**/*'], $browserSync.reload);
 
 });
@@ -109,3 +109,5 @@ $gulp.task('serve', [
 $gulp.task('default', [
 	'serve'
 ]);
+
+

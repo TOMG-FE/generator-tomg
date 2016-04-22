@@ -3,6 +3,8 @@
 @@include('../common/reset.css')
 @@include('../common/common.css')
 @@include('../common/public.css')
+@@include('../common/sprite.css')
 
 /* modules */
-@@include('../mods/pl-home.css')
+@@include('../mods/pl-gotop.css')
+@@include('../mods/pl-home-banner.css')

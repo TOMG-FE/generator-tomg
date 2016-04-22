@@ -20,5 +20,7 @@ module.exports = function(str){
 		replace(/\>/g,'&gt;').
 		replace(/\'/g,'&#39;').
 		replace(/\u00A0/g,'&nbsp;').
+		replace(/`/g,'&#96;').
 		replace(/(\u0020|\u000B|\u2028|\u2029|\f)/g,'&#32;');
 };
+

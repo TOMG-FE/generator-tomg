@@ -10,21 +10,14 @@ body{
 	font-smoothing: antialiased;
 	font-family:SimHei, Helvetica,Droid Sans Fallback;
 	font-size: 0.14rem;
-	color: #444;
 }
 
 *{
 	-webkit-tap-highlight-color:rgba(255,255,255,0);
 	tap-highlight-color:rgba(255,255,255,0);
-	-webkit-appearance: none;
 	outline:none;
 }
-ol, ul {
-    list-style: none;
-}
-a{
-	color: #444;
-}
+
 .fl{float: left;}
 .fr{float: right;}
 .bold{font-weight:bold}
@@ -71,3 +64,6 @@ a{
 .line3{
 	-webkit-line-clamp: 3;
 }
+
+
+

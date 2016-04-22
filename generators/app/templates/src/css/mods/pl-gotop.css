@@ -1,0 +1,12 @@
+/*返顶*/
+.pl-gotop{
+	position: fixed;
+	right: 0.1rem;
+	bottom: 0.1rem;
+}
+
+.pl-gotop .icon{
+	display: block;
+	width: 0.26rem;
+	height: 0.26rem;
+}
